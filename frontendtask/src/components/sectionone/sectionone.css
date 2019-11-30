@@ -1,0 +1,49 @@
+.section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section--content {
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.section--wrapper h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.section--mark-blue {
+  background-color: blue;
+  color: white;
+}
+
+.section--mark-red {
+  background-color: red;
+  color: white;
+}
+
+.section--wrapper button {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .section--content {
+    width: 50%;
+    margin-top: 70px;
+  }
+
+  .section--wrapper {
+    padding: 50px;
+  }
+}

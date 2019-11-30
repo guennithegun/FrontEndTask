@@ -1,0 +1,13 @@
+body, html {
+  font-family: 'Open Sans';
+}
+
+#root {
+  padding: 0;
+}
+
+/* @media (min-width: 1000px) {
+  #root {
+    padding: 0 100px;
+  }
+} */

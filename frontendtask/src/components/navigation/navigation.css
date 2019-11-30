@@ -1,0 +1,63 @@
+.navigationBar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigationBar--content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+}
+
+.navigationRed {
+  color: red;
+}
+
+.navigationBlack {
+  color: black;
+}
+
+.navigationBar--list {
+  padding: 0;
+}
+
+.navigationBar--list-item {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+.navigationBar--list-item a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.navigationBar--list-item a:hover {
+  color: black;
+}
+
+.active--navigationBarItem-left {
+  color: black;
+}
+
+.navigationBar--content-mobile {
+  display: none;
+}
+
+.hiddenMobile {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .navigationBar--content {
+    font-size: 12px;
+  }
+
+  .hiddenMobile {
+    display: inherit;
+  }
+}
